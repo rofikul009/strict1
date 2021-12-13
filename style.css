@@ -1,0 +1,281 @@
+/*========google font ========*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+/*========comon scc========*/
+body{
+	font-family: 'Roboto', sans-serif;
+}
+img{
+	width:100%;
+	height:auto;
+}
+a:hover{
+	text-decoration: nane;
+
+}
+.strict-sec-title{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.strict-sec-title h2{
+	color: #2d3950;
+	font-size: 35px;
+}
+
+p{
+	color: #999999;
+	font-size: 15px;
+}
+/*========header scc========*/
+.strict-header{
+	background-color: #f6f9f9;
+	padding: 30px 0;
+}
+
+.strict-logo{
+	padding: 10px;
+}
+
+.steict-manu{
+	text-decoration: nane;
+}
+
+.steict-manu ul li a{
+	color: #454444;
+	padding: 10px 25px;
+	display: block;
+	text-transform: capitalize;
+	font-weight: 700;
+	transition: 5s;
+	text-decoration: nane;
+}
+
+.steict-manu ul li a:hover{
+	color: #15a4fa;
+}
+/*========banner scc========*/
+
+.strict-banner{
+	background-image:url('images/5.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 120px 0 15px;
+	text-align: center;
+}
+
+.strict-banner-text{}
+
+.strict-banner-text h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 70px;
+	font-weight: 700;
+	padding-bottom: 30px;
+}
+
+.strict-banner-text span{
+	color: #fff;
+	border-top: 1px solid #15a4fa;
+	padding: 30px 20px 0;
+	display: inline-block;
+}
+
+.strict-banner-button{
+	padding: 65px;
+}
+
+.strict-banner-button a{
+	color: #fff;
+	border: 1px solid #15a4fa;
+	border-radius: 3px;
+	padding: 10px 25px;
+
+}
+.strict-banner-button a:hover{
+	background-color: #15a4fa; 
+}
+
+.strict-banner-button i{
+	display: block;
+	color: #fff;
+	margin-top: 150px;
+}
+
+/*========about scc========*/
+.strict-about{
+	background-color: #f6f9f9;
+	padding: 80px 0;
+	text-align: center;
+
+}
+.strict-about p{
+	font-size: 20px;
+}
+/*========srvice scc========*/
+
+.strict-service{
+	background-colr: #f6f9f9;
+	padding: 80px 0;
+}
+.strict-src-content{
+	width: 31%;
+	text-align: center;
+	float: left;
+	overflow: hidden;
+	margin-left: 2%;
+
+}
+..strict-src-content:first-child{
+	margin-left: 0;
+}
+.strict-src-icon{
+	width: 50px;
+	height: 50px;
+	background:  linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.strict-src-icon i{
+
+	color: #fff;
+}
+/*========portfolio scc========*/
+.strict-portfolio{
+	padding: 80px 0;
+	background-color: #f6f9f9;
+}
+
+.strict-por-img{
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.strict-por-overlay{
+	background-color: rgba(21, 164, 250, .9);
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: 3s;
+}
+
+.strict-por-overlay ul{
+	padding: 0;
+	list-style: none;
+	display: flex;
+	
+}
+.strict-por-overlay ul li{
+	border: 1px solid #fff;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 3px;
+}
+
+.strict-por-overlay ul li i{
+	font-weight: 5px;
+	color: #fff;
+}
+
+.strict-por-img:hover .strict-por-overlay{
+	opacity: 1;
+} 
+/*========contact scc========*/
+.strict-contact{
+	background-image:url('images/16.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.strict-contact-overlay{
+	background-color: rgba(45, 57, 80, .75);
+	padding: 80px 0;
+	opacity: 0;
+	transition: 5s;
+}
+.strict-contact:hover .strict-contact-overlay{
+	opacity: 1;
+}
+.strict-contact .strict-sec-title h2{
+	color: #fff;
+}
+.strict-contact-form{
+	padding: 20px 0;
+}
+.strict-contact-form .form-group input, 
+.strict-contact-form .form-group textarea{
+	
+	border: 1px solid #999999;
+}
+
+.strict-form-bottom{
+	overflow: hidden;
+	padding: 5px;
+}
+	.strict-form-left{
+		float: left;
+	}
+
+.strict-form-left input{
+	margin: 5px;
+}
+.strict-form-left label{
+	color: #fff;
+}
+.strict-form-right{
+	float: right;
+	padding: 10px 0;
+}
+.strict-form-right input{
+	color: #fff;
+	border: 1px solid #15a4fa;
+	background-color: transparent;
+	padding: 3px 20px;
+}
+.
+.strict-form-right input:hover{
+	background-color: #15a4fa;
+}
+/*========footer scc========*/
+.strict-footer{
+	overflow: hidden;
+	padding: 25px 0;
+	background-color: #f6f9f9;
+}
+.strict-footer p{
+	margin: 10px 0;
+}
+.strict-social-network{
+
+}
+.strict-social-network ul{
+	float: right;
+	margin: 0;
+}
+.strict-social-network ul li{
+	width: 35px;
+	height: 35px;
+	background-color: #15a4fa;
+	margin: 10px 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.strict-social-network ul a{
+	color: #fff;
+}
